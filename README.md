@@ -59,11 +59,10 @@ R  = make_adj(M);
 ```
 
 The structure R now contains the adjacency matrix. The variable is a structure with the fields...
-  R.W: [n x n scalar] weight matrix for all nodes in the graph (denoted as S in the paper)
-  R.W_allowed [n x n logical] binary matrix for active connections
-     (non-zero elements of W)
-  R.isclust = [n x 1 logical] which nodes are latent clusters?
-  R.sigma = [scalar] variance parameter
+  * R.W: [n x n scalar] weight matrix for all nodes in the graph (denoted as S in the paper)
+  * R.W_allowed [n x n logical] binary matrix for active connections (non-zero elements of W)
+  * R.isclust = [n x 1 logical] which nodes are latent clusters?
+  * R.sigma = [scalar] variance parameter
 
 The graph can be visualized by typing:
 
@@ -83,6 +82,6 @@ If you receive an error message about the wrong number of input or output variab
 
 This program incorporates some code written by others. 
 I would like to acknowledge:
-function "colorspy" from Alexandre d'Aspremont
-function "checkgrad" from Charles Kemp
-graphviz interface files by Leon Peshkin
+* function "colorspy" from Alexandre d'Aspremont
+* function "checkgrad" from Charles Kemp
+* graphviz interface files by Leon Peshkin
