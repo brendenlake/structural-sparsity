@@ -3,7 +3,7 @@
 ### SUMMARY
 The input data is a matrix of objects and features. The structural sparsity model learns a sparse graph to organize the set of objects. The algorithm searches for a graph that explains the features while favoring sparse graph structures. Each graph defines a Gaussian Markov Random Fields with latent variables.
 
-Please cite the following paper:
+Please cite the following paper:  
 Lake, B. M., Lawrence, N. D., and Tenenbaum, J. B. (2016). The emergence of organizing structure in conceptual representation. Preprint available on arXiv.org.
 
 ### REQUIREMENTS
@@ -12,7 +12,7 @@ Before running the code, you must install the following:
 
 The [Lightspeed toolbox](http://research.microsoft.com/en-us/um/people/minka/software/lightspeed/) from Tom Minka.
 
-[PQN](http://www.cs.ubc.ca/%7Eschmidtm/Software/PQN.html) optimization algorithm from Mark Schmidt, introduced in this paper:
+[PQN](http://www.cs.ubc.ca/%7Eschmidtm/Software/PQN.html) optimization algorithm from Mark Schmidt, introduced in this paper:  
 M. Schmidt, E. van den Berg, M. Friedlander, and K. Murphy (2009). "Optimizing Costly Functions with Simple Constraints: A Limited-Memory Projected Quasi-Newton Algorithm." AISTATS.
 
 [Graphviz](http://www.graphviz.org/) if you you want to visualize the learned graphs.
@@ -22,9 +22,7 @@ Also, we recommend using a machine with 4 or more cores. As implemented, the sea
 ### RUNNING THE CODE
 
 **Setting your path**
-The main folders for PQN, lightspeed, and structural sparsity should 
-all be added (along with their subfolders) to your path. For instance,
-to add the folder "structural_sparsity" please type:
+The main folders for PQN, lightspeed, and structural sparsity should all be added (along with their subfolders) to your path. For instance, to add the folder "structural_sparsity" please type:
 
 ```matlab
 cd structural_sparsity
@@ -80,7 +78,7 @@ If you receive an error message about the wrong number of input or output variab
 
 ###  ACKNOWLEDGMENTS
 
-This program incorporates some code written by others. 
+This program incorporates some code written by others.  
 I would like to acknowledge:
 * function "colorspy" from Alexandre d'Aspremont
 * function "checkgrad" from Charles Kemp
