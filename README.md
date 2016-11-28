@@ -12,7 +12,7 @@ Before running the code, you must install the following:
 
 The [Lightspeed toolbox](http://research.microsoft.com/en-us/um/people/minka/software/lightspeed/) from Tom Minka.
 
-[PQN](http://www.cs.ubc.ca/~schmidtm/Software/minConf.html) optimization algorithm from Mark Schmidt, introduced in this paper:
+[PQN](http://www.cs.ubc.ca/%7Eschmidtm/Software/PQN.html) optimization algorithm from Mark Schmidt, introduced in this paper:
 M. Schmidt, E. van den Berg, M. Friedlander, and K. Murphy (2009). "Optimizing Costly Functions with Simple Constraints: A Limited-Memory Projected Quasi-Newton Algorithm." AISTATS.
 
 [Graphviz](http://www.graphviz.org/) if you you want to visualize the learned graphs.
