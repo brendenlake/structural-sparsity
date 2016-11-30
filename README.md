@@ -4,7 +4,7 @@
 The input data is a matrix of objects and features. The structural sparsity model learns a sparse graph to organize the set of objects. The algorithm searches for a graph that explains the features while favoring sparse graph structures. Each graph defines a Gaussian Markov Random Fields with latent variables.
 
 Please cite the following paper:  
-Lake, B. M., Lawrence, N. D., and Tenenbaum, J. B. (2016). The emergence of organizing structure in conceptual representation. Preprint available on arXiv.org.
+[Lake, B. M., Lawrence, N. D., and Tenenbaum, J. B. (2016). The emergence of organizing structure in conceptual representation.](https://arxiv.org/abs/1611.09384) Preprint available on arXiv:1611.09384.
 
 ### REQUIREMENTS
 
